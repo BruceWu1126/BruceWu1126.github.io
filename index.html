@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Bingda WU</title>
+  <style>
+    :root { --ink: #1d2433; --muted: #5b6475; --accent: #2457c5; --line: #e3e6ec; }
+    * { box-sizing: border-box; }
+    body { margin: 0; font: 17px/1.6 system-ui, -apple-system, "Segoe UI", sans-serif; color: var(--ink); background: #fafbfc; }
+    main { max-width: 720px; margin: 0 auto; padding: 64px 24px; }
+    h1 { font-size: 2.2rem; margin: 0 0 4px; letter-spacing: -0.02em; }
+    .role { color: var(--muted); margin: 0 0 32px; }
+    h2 { font-size: 0.85rem; text-transform: uppercase; letter-spacing: 0.08em; color: var(--muted); border-bottom: 1px solid var(--line); padding-bottom: 6px; margin-top: 40px; }
+    a { color: var(--accent); text-decoration: none; }
+    a:hover { text-decoration: underline; }
+    .project { margin: 18px 0; }
+    .project b { display: block; }
+    .links a { margin-right: 18px; }
+  </style>
+</head>
+<body>
+  <main>
+    <h1>Bingda WU</h1>
+    <p class="role">Engineering student, Computer Science major, Mines Saint-Étienne</p>
+
+    <p class="links">
+      <a href="https://github.com/BruceWu1126">GitHub</a>
+      <a href="https://www.linkedin.com/in/bingda-wu-2b6727358">LinkedIn</a>
+    </p>
+
+    <h2>Projects</h2>
+    <div class="project">
+      <b><a href="https://github.com/BruceWu1126/whatsup-agent">whatsup-agent</a></b>
+      A command-line tool that asks a local LLM (Ollama) why my machine is slow. The model measures memory,
+      CPU, disk and processes through a tool call before it answers. Python, packaged with uv.
+    </div>
+    <div class="project">
+      <b>Primary Flight Display on STM32</b>
+      Bachelor's thesis: a small aircraft primary flight display (attitude, airspeed, altitude) running on an
+      STM32 microcontroller board.
+    </div>
+
+    <h2>Skills</h2>
+    <p>Python · C (embedded, STM32) · Git &amp; GitHub · Linux / WSL · uv, Maven</p>
+  </main>
+</body>
+</html>
